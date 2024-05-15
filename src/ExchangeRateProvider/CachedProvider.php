@@ -10,7 +10,7 @@ use Brick\Money\ExchangeRateProvider;
 /**
  * Caches the results of another exchange rate provider.
  */
-final class CachedProvider implements ExchangeRateProvider
+class CachedProvider implements ExchangeRateProvider
 {
     /**
      * The underlying exchange rate provider.

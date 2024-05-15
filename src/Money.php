@@ -31,7 +31,7 @@ use InvalidArgumentException;
  * - CustomContext handles monies with a custom scale, and optionally step.
  * - AutoContext automatically adjusts the scale of the money to the minimum required.
  */
-final class Money extends AbstractMoney
+class Money extends AbstractMoney
 {
     /**
      * The amount.

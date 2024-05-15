@@ -13,7 +13,7 @@ use Brick\Money\Currency;
 /**
  * Adjusts a number to a custom scale, and optionally step.
  */
-final class CustomContext implements Context
+class CustomContext implements Context
 {
     /**
      * The scale of the monies using this context.

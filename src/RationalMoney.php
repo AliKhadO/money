@@ -16,7 +16,7 @@ use Brick\Math\Exception\MathException;
  * This is used to represent intermediate calculation results, and may not be exactly convertible to a decimal amount
  * with a finite number of digits. The final conversion to a Money may require rounding.
  */
-final class RationalMoney extends AbstractMoney
+class RationalMoney extends AbstractMoney
 {
     private readonly BigRational $amount;
 

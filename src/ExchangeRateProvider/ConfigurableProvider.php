@@ -12,7 +12,7 @@ use Brick\Math\BigNumber;
 /**
  * A configurable exchange rate provider.
  */
-final class ConfigurableProvider implements ExchangeRateProvider
+class ConfigurableProvider implements ExchangeRateProvider
 {
     /**
      * @psalm-var array<string, array<string, BigNumber|int|float|string>>

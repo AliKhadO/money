@@ -11,7 +11,7 @@ use Brick\Money\Exception\CurrencyConversionException;
 /**
  * Reads exchange rates from a PDO database connection.
  */
-final class PDOProvider implements ExchangeRateProvider
+class PDOProvider implements ExchangeRateProvider
 {
     /**
      * The SELECT statement.

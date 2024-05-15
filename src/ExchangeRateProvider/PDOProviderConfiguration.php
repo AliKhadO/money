@@ -9,7 +9,7 @@ use InvalidArgumentException;
 /**
  * Configuration for the PDOExchangeRateProvider.
  */
-final class PDOProviderConfiguration
+class PDOProviderConfiguration
 {
     public function __construct(
         /**

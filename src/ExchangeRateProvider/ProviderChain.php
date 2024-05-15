@@ -11,7 +11,7 @@ use Brick\Money\ExchangeRateProvider;
 /**
  * A chain of exchange rate providers.
  */
-final class ProviderChain implements ExchangeRateProvider
+class ProviderChain implements ExchangeRateProvider
 {
     /**
      * The exchange rate providers, indexed by object hash.

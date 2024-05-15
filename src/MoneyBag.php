@@ -11,7 +11,7 @@ use Brick\Math\BigRational;
  *
  * This class is mutable.
  */
-final class MoneyBag implements MoneyContainer
+class MoneyBag implements MoneyContainer
 {
     /**
      * The amounts in this bag, indexed by currency code.
